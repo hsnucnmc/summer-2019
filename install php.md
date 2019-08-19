@@ -1,3 +1,4 @@
+# mysql
 pkg install mysql56-server
 vim /etc/rc.conf
 	mysql_enable="YES"
@@ -13,6 +14,7 @@ mysql_secure_installation
 mysql -u root -p
 	exit
 
+# php
 pkg install php73-mysqli
 pkg install php73-pdo_mysql
 pkg install php73-gd
@@ -27,7 +29,7 @@ vim /usr/local/etc/apache24/httpd.conf
     		SetHandler application/x-httpd-php-source
 	</FilesMatch>
 
-
+# phpMyAdmin
 pkg install phpMyAdmin-php73
 mkdir phpMyAdmin
 cp -r /usr/local/www/phpMyAdmin /usr/local/www/apache24/data/phpMyAdmin
@@ -39,6 +41,7 @@ cp -r /usr/local/www/wordpress-zh_TW /usr/local/www/apache24/data/wordpress
 cd /usr/local/www/apache24/data/wordpress/
 cp wp-config-sample.php wp-config.php
 
+# wordpress
 go to phpMyAdmin
 	create db : wordpress
 	create user : wordpress
