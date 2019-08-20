@@ -11,7 +11,7 @@ mysql_secure_installation
 	Y
 	Y
 	Y
-mysql -u root -p
+mysql -u root -p(try)
 	exit
 
 # php
