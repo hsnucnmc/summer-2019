@@ -1,7 +1,7 @@
 etc rc.conf mysql_enable"YES"
 	    apache24_enable="YES"
 sudo service mysql-server start or cd/usr/local/etc/rc.d  mysql-server start
-sudo mysql_secure_installation §ï±K½X(·í«e ª½±µenter)
+sudo mysql_secure_installation æ”¹å¯†ç¢¼(ç•¶å‰ ç›´æ¥enter)
 mysql -u root -p
 
 
@@ -14,7 +14,7 @@ sudo pkg installphp73-pdo
 
 
 vim /usr/local/etc/apache24/httpd.conf
-¥[¤J
+åŠ å…¥
 <FilesMatch "\.php$">
     SetHandler application/x-httpd-php
 </FilesMatch>
@@ -24,10 +24,10 @@ vim /usr/local/etc/apache24/httpd.conf
 
 
 vim /usr/local/etc/apache24/httpd.conf
-DirectoryIndex Index.php Index.html(«ö¶¶§Ç)
-¥u¥´ºô§}®ÉÅã¥ÜªºÀÉ®×
+DirectoryIndex Index.php Index.html(æŒ‰é †åº)
+åªæ‰“ç¶²å€æ™‚é¡¯ç¤ºçš„æª”æ¡ˆ
 
-ServerName °ì¦W()
+ServerName åŸŸå()
 DocumentRoot /usr/local/www/apache24/data
 cd /usr/local/www/apache24/data
 sudo vim test.php
@@ -36,12 +36,12 @@ phpinfo();
 ?>
 
 google 140.131.149.49/test.php
-¥X²{¤£¹³¦Û¤v¥´ªºªF¦è
+å‡ºç¾ä¸åƒè‡ªå·±æ‰“çš„æ±è¥¿
 
 sudo pkg install phpMyAdminphp73
 
 cd /usr/local/www/apache24/data/php
-sudo cp -r(¸ê®Æ§¨) /usr/local/www/phpMyAdmin/ /usr/local/www/apache24/data/phpMyAdmin/
+sudo cp -r(è³‡æ–™å¤¾) /usr/local/www/phpMyAdmin/ /usr/local/www/apache24/data/phpMyAdmin/
 
 sudo chmod 644 config.inc.php
 
@@ -50,17 +50,17 @@ google login phpmyadmin
 sudo cp -r /usr/local/www/wordpress-zh_TW/ /usr/local/www/apache24/data/wordpress
 sudo cp /usr/local/www/apache24/data/wordpress/wp-config-sample.php /usr/local/www/apache24/data/wordpress/wp-config.php
 
-¥´¶} wp-comfig.php
-¥´¶}phpmyadmin
-·s¼W¸ê®Æ®wwordpress utf8_general_ci(À³¸Ó¬Outf8_unicode_ci?)
-·s¼W¨Ï¥ÎªÌ Username localhost Password ²£¥Í±K½X"¶Ã½X"
-¨Ï¥ÎªÌ±b¸¹ªº¸ê®Æ®w ¤Ä¤U¤G
-«Ø¥ß»P¨Ï¥ÎªÌ¦P¦Wªº¸ê®Æ®w¡A¨Ã±Â¤©©Ò¦³Åv­­¡C 
-µ¹¥H ±b¸¹_ ¶}ÀYªº¸ê®Æ®w (username\_%) ±Â¤©©Ò¦³Åv­­¡C 
+æ‰“é–‹ wp-comfig.php
+æ‰“é–‹phpmyadmin
+æ–°å¢è³‡æ–™åº«wordpress utf8_general_ci(æ‡‰è©²æ˜¯utf8_unicode_ci?)
+æ–°å¢ä½¿ç”¨è€… Username localhost Password ç”¢ç”Ÿå¯†ç¢¼"äº‚ç¢¼"
+ä½¿ç”¨è€…å¸³è™Ÿçš„è³‡æ–™åº« å‹¾ä¸‹äºŒ
+å»ºç«‹èˆ‡ä½¿ç”¨è€…åŒåçš„è³‡æ–™åº«ï¼Œä¸¦æˆäºˆæ‰€æœ‰æ¬Šé™ã€‚ 
+çµ¦ä»¥ å¸³è™Ÿ_ é–‹é ­çš„è³‡æ–™åº« (username\_%) æˆäºˆæ‰€æœ‰æ¬Šé™ã€‚ 
 
-®Ú¾Úphpmyadmin
-§ïwp-comfig.php
-§ï«á­±DB_Name DB_User DB_Password("¶Ã½X")
+æ ¹æ“šphpmyadmin
+æ”¹wp-comfig.php
+æ”¹å¾Œé¢DB_Name DB_User DB_Password("äº‚ç¢¼")
 x!
 
 google
@@ -68,9 +68,9 @@ ip/wordpress
 
 
 
-¶Ã½X?(¤¤¤å)
-­«¶}screen
+äº‚ç¢¼?(ä¸­æ–‡)
+é‡é–‹screen
 screen -U
 
 vim
-:set encoding
+:set encoding=utf8
