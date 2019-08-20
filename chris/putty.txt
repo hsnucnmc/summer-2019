@@ -1,0 +1,11 @@
+可處理DHCP
+140.131.149.49
+SSH tunnels source port 8080
+Dynamic
+
+google
+proxy setting
+
+勾 "為你的LAN使用proxy "
+進階
+socks(C) localhost 8080
