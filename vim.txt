@@ -1,9 +1,0 @@
-vim 
-:u 上一步
-:set number 顯示行數
-:34 跳到34行
-/找東西  n shift 下一個/上一行
-v 選取 c cut y copy p paste 
-gg 跳到最上
-G  跳到最下
-set paste 貼上模式(X重新排版)
