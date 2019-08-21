@@ -36,12 +36,12 @@ cp -r /usr/local/www/phpMyAdmin /usr/local/www/apache24/data/phpMyAdmin
 cd /usr/local/www/apache24/data/phpMyAdmin
 chmod 644 config.inc.php
 
+# wordpress
 pkg install zh-wordpress-zh_TW
 cp -r /usr/local/www/wordpress-zh_TW /usr/local/www/apache24/data/wordpress
 cd /usr/local/www/apache24/data/wordpress/
 cp wp-config-sample.php wp-config.php
 
-# wordpress
 go to phpMyAdmin
 	create db : wordpress
 	create user : wordpress
@@ -60,3 +60,15 @@ vim wp-config.php
 	[email]
 	install wordpress
 	login
+
+  ---
+ # wiki
+https://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_FreeBSD
+pkg install mediawiki132-php72
+go to phpMyAdmin
+	create db : wiki
+	create user : wiki
+	passwd : [generate]
+	click the two checkboxes(about db)
+open wiki page, and complete the installation with the following setup
+try to login
