@@ -38,7 +38,7 @@ phpinfo();
 google 140.131.149.49/test.php
 出現不像自己打的東西
 
-sudo pkg install phpMyAdminphp73
+sudo pkg install phpMyAdmin-php73
 
 cd /usr/local/www/apache24/data/php
 sudo cp -r(資料夾) /usr/local/www/phpMyAdmin/ /usr/local/www/apache24/data/phpMyAdmin/
